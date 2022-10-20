@@ -8,10 +8,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class SumCalculatorTest {
 
-    private SumCalculator sumCalculator = new SumCalculator();
+    SumCalculator sumCalculator;
 
     @BeforeEach
     void setUp() {
+        sumCalculator = new SumCalculator();
     }
 
     @Test
